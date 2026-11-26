@@ -6,7 +6,17 @@ public class Book extends LibraryItem implements Borrowable {
         this.author = author;
     }
 
-    public String getAuthor() { return author; }
-    @Override public int fineRate() { return 2; }
-    @Override public String typeName() { return "BOOK"; }
+    public String getAuthor() { 
+        return author; 
+    }
+
+    @Override 
+    public int fineRate() { 
+        return 2;
+    }
+    
+    @Override 
+    public String typeName() {
+        return "BOOK"; 
+    }
 }
