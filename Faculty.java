@@ -1,6 +1,6 @@
 public class Faculty extends Member {
-    public Faculty(String name) { 
-        super(name); 
+    public Faculty(String id ,String name) { 
+        super(id,name); 
     }
     @Override 
     public int maxItems() { 

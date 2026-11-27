@@ -1,6 +1,6 @@
 public class Staff extends Member {
-    public Staff( String name) { 
-        super( name); 
+    public Staff(String id,String name) { 
+        super(id,name); 
     }
 
     @Override 
